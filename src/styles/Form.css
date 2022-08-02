@@ -1,0 +1,41 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  color: white;
+  padding: 8px 0px;
+  background-color: #10b981;
+  border: 0px transparent solid;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #0c855c;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+}
+
+input {
+  min-height: 28px;
+  border-radius: 6px;
+  border: 1px grey solid;
+  padding: 4px 8px;
+}
